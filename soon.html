@@ -107,41 +107,57 @@
     color: #e0e0e0;
   }
 </style>
+<style>
+.navbar-toggler {
+  border-color: #c67d2f; /* Optional: change border color */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23c67d2f' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-collapse {
+  background-color: #111111 !important;
+}
+
+.navbar-collapse .nav-link {
+  color: white !important;
+}
+</style>
 
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navScroll">
 
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <nav id="navScroll" class="navbar navbar-expand-lg fixed-top bg-secondary navbar-dark" tabindex="0" >
   <div class="container">
-    <a class="navbar-brand pe-4 fs-4" href="index.html">
+    <a class="navbar-brand" href="index.html">
 
       <img src="img/favicon.png" alt="Smart Bracelet Display" width="45" height="60">
   <span class="ms-1 fw-bolder">ANIKA</span>
 </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-    <a class="nav-link" href="#" aria-label="Brings you to the frontpage">
+    <a class="nav-link" href="./soon.html" aria-label="Brings you to the frontpage">
       Services
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="./soon.html">
       Support 
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="./soon.html">
       Pre-Order 
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">
+    <a class="nav-link" href="./soon.html">
       About us
     </a>
   </li>
@@ -162,15 +178,15 @@
          <div class="w-100 overflow-hidden bg-gray-100 mb-5" id="top">
   
 <div class="container position-relative mt-5">
-  <div class="col-12 col-lg-8 mt-5 h-100 position-absolute top-0 end-0 bg-cover object-fit-cover" data-aos="fade-left" style="background-image: url(img/favicon.png);">
+  <div class="col-12 col-lg-8 mt-5 h-100 position-absolute top-0 end-0 bg-cover object-fit-cover" data-aos="fade-left" style="background-image: url(img/S2.jpg);">
     
   </div>
     <div class="row">
 
 <div class="col-lg-7 py-vh-6 position-relative text" data-aos="fade-right">
-  <h1 class="display-1 fw-bold mt-5" style="color: #c67d2f;">COMING SOON...</h1>
+  <h1 class="display-1 fw-bold mt-5" >COMING SOON...</h1>
   <p class="lead" style="color: #f8c084;">A safer world where anyone, anywhere, anytime can feel protected through innovation.</p>
-  <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Pre-Order</a>
+  <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5" style="background-color: #c67d2f;">Pre-Order</a>
 </div>
 
 </div>
